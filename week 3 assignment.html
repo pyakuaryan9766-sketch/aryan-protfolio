@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ShloK's responsive personal portfolio">
+    <title>Aryan | Personal Portfolio</title>
+    <link rel="stylesheet" href="week 3 style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container nav-wrap">
+            <a class="brand" href="#top">Aryan<span>.</span></a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="container first-grid">
+                <div class="first-content">
+                    <p class="eyebrow">WEB DEVELOPMENT • HTML • CSS</p>
+                    <h1>Developing intuitive, accessible, and responsive websites.</h1>
+                    <p class="first-text">
+                       I am a web development learner focused on creating well-structured websites, user-friendly interfaces, and practical front-end solutions.
+                    </p>
+                    <div class="first-actions">
+                        <a class="button primary" href="#projects">View Projects</a>
+                        <a class="button secondary" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="aryan.jpeg" alt="Aryan Profile">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section-label">01 — About</p>
+                <h2>Some info about myself</h2>
+                <div class="about-grid">
+                    <div>
+                        <p>
+                           I enjoy transforming ideas into well-structured digital experiences. I am currently developing my skills in HTML, CSS, responsive design, accessibility, and Git-based development workflows.
+                        </p>
+                        <p>
+                           I focus on clear information structure, clean and readable code, and interfaces that work smoothly across different screen sizes.
+                        </p>
+                    </div>
+                    <aside class="highlight">
+                        <strong>Recent Interests</strong>
+                        <p>
+                            Responsive web layouts, accessible forms, semantic HTML5 structure, and well-organized CSS.
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="skills">
+            <div class="container">
+                <p class="section-label">02 — Skills</p>
+                <h2>Skills</h2>
+                <dl class="skills-grid">
+                    <div><dt>Python</dt><dd>Writing basic programs, working with logic, and solving practical problems.</dd></div>
+                    <div><dt>UI/UX Design</dt><dd>Creating simple, intuitive, and user-focused interface designs.</dd></div>
+                    <div><dt>Canva</dt><dd>Designing presentations, visual content, and professional digital materials.</dd></div>
+                    <div><dt>SQL</dt><dd>Working with databases, queries, and structured data management.</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="section-label">03 — Projects</p>
+                <h2>Some Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <span class="project-number">01</span>
+                        <h3> Portfolio</h3>
+                        <p>
+                           A professionally structured HTML5 portfolio featuring organized content, user-friendly navigation, a dedicated skills section, and a responsive contact form.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">View repository →</a>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-number">02</span>
+                        <h3>Adaptive Web Landing Page</h3>
+                        <p>
+                           A modern web interface featuring flexible layouts, responsive design techniques, consistent visual styling, and reusable UI elements for different screen sizes.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">View repository →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <p class="section-label">04 — Contact</p>
+                    <h2>Let’s create something meaningful and practical.</h2>
+                    <p>Have an idea, suggestion, or question? Feel free to get in touch and let’s connect.</p>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button class="button primary" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>© 2026 Aryan. Built with semantic HTML5 and CSS3.</p>
+            <a href="#top">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
